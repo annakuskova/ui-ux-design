@@ -1,0 +1,125 @@
+.frame {
+  background: linear-gradient(41.06deg, #101116 4.65%, #c9c9c9 130.64%);
+  height: 100vh;
+  width: 100%;
+  font-family: "HelveticaNeueCyr";
+  color: #ffffff;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0.16em;
+  justify-content: space-around;
+  width: 635px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  padding-top: 70px;
+  padding-right: 50px;
+  margin-bottom: 45px;
+}
+
+.block-left {
+  font-style: normal;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 85px 215px 700px;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 52px;
+}
+
+.block-left h1 {
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: 0.045em;
+  padding-bottom: 32px;
+  margin: 0;
+  position: relative;
+}
+
+.block-left p {
+  font-size: 38px;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  padding-bottom: 175px;
+  margin: 0;
+  position: relative;
+}
+
+.block-left .task-name {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 53px;
+  margin: 0;
+}
+
+.vector {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.counter {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 122px;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.counter p{
+  font-family: "Mark Pro";
+  color: #ffffff;
+  font-size: 96px;
+}
+
+.counterBtn {
+  width: 104px;
+  height: 104px;
+  border: 10px solid #5ab45a;
+  border-radius: 50%;
+  background: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.counterBtn:hover {
+  border: 10px solid #71ca71;
+  transition: 20ms;
+}
+
+.counterBtn:active {
+  border: 10px solid #499349;
+}
+
+.btnOne {
+  margin-right: 55px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #d2d2d2;
+  transition: 20ms;
+}
+
+a:active {
+  color: #b7b7b7;
+}
+
